@@ -23,8 +23,8 @@ class Mailer
       $mail->isSMTP(true);
       $mail->Host = 'smtp-mail.outlook.com';
       $mail->SMTPAuth = true;
-      $mail->Username = 'technic.ifc@outlook.com';
-      $mail->Password = 'jWnJ2-s+eF<MrGTMK';
+      $mail->Username = '';
+      $mail->Password = '';
       $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
       $mail->Port = 587;
 

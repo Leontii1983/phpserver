@@ -21,14 +21,14 @@ class Mailer
       //Setings for server
       $mail->SMTPDebug = 2;
       $mail->isSMTP(true);
-      $mail->Host = 'smtp-mail.outlook.com';
+      $mail->Host = '';
       $mail->SMTPAuth = true;
       $mail->Username = '';
       $mail->Password = '';
       $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-      $mail->Port = 587;
+      $mail->Port = ;
 
-      $mail->setFrom('technic.ifc@outlook.com', 'Angry admin');
+      $mail->setFrom('', 'Angry admin');
       $mail->addAddress($email);
       $mail->Subject = $subject;
       $mail->msgHTML($message);
